@@ -1,0 +1,143 @@
+.home {
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;
+}
+
+.select {
+  /* width: 700px; */
+  justify-content: center;
+  margin: 10px 25%;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.moviesFiltered {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #282c34;
+  border-radius: 10px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  margin: 5px 5px;
+}
+
+.buttons {
+  position: absolute;
+  background-color: green;
+  bottom: 0;
+}
+
+.movies > * {
+  /* flex: 0 0 20%; */
+  margin: 5px 5px;
+}
+
+.media:hover {
+  background-color: white;
+  color: black;
+}
+
+.pagination {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.paginationBttns {
+  /* width: 80%; */
+  /* height: 40%; */
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #282c34;
+  color: #282c34;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #282c34;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #282c34;
+}
+
+.selectRow {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+.selectRow b {
+  font-family: "Montserrat", sans-serif;
+  color: #282c34;
+}
+.dropdown {
+  height: 40px;
+  margin: 0px 8px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 1px solid #282c34;
+  color: #282c34;
+  cursor: pointer;
+}
+@media (max-width: 550px) {
+  .media {
+    width: 46%;
+  }
+}
+
+.poster {
+  border-radius: 10px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  padding: 8px 0;
+  color: white;
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+.likeContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.likeContainer span {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
